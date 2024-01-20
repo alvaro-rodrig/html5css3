@@ -3,7 +3,22 @@ Folha de estilo do site one page e css3 @author Alvaro Rodrigues M S
 */
 
 
-body
-{
-    background-color: #ff0000;
+
+
+/* smartphone landscape*/
+
+@media (min-width: 576px){
+    body{background-color: #00ffff;}
+}
+
+/* tablet portrait*/
+
+@media (min-width: 768px){
+    body{background-colo: #ff0;}
+}
+
+/* tablet landscape*/
+
+@media (min-width: 992px){
+    body{background-colo: #ff6600;}
 }
